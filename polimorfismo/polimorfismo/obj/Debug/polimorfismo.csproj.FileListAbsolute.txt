@@ -1,0 +1,6 @@
+C:\Users\aluno\Documents\mih\polimorfismo\polimorfismo\bin\Debug\polimorfismo.exe.config
+C:\Users\aluno\Documents\mih\polimorfismo\polimorfismo\obj\Debug\polimorfismo.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Documents\mih\polimorfismo\polimorfismo\bin\Debug\polimorfismo.exe
+C:\Users\aluno\Documents\mih\polimorfismo\polimorfismo\bin\Debug\polimorfismo.pdb
+C:\Users\aluno\Documents\mih\polimorfismo\polimorfismo\obj\Debug\polimorfismo.exe
+C:\Users\aluno\Documents\mih\polimorfismo\polimorfismo\obj\Debug\polimorfismo.pdb

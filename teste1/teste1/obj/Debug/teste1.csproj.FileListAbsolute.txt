@@ -1,0 +1,9 @@
+C:\Users\aluno\Documents\mih\teste1\teste1\bin\Debug\teste1.exe.config
+C:\Users\aluno\Documents\mih\teste1\teste1\bin\Debug\teste1.exe
+C:\Users\aluno\Documents\mih\teste1\teste1\bin\Debug\teste1.pdb
+C:\Users\aluno\Documents\mih\teste1\teste1\obj\Debug\teste1.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Documents\mih\teste1\teste1\obj\Debug\teste1.Form1.resources
+C:\Users\aluno\Documents\mih\teste1\teste1\obj\Debug\teste1.Properties.Resources.resources
+C:\Users\aluno\Documents\mih\teste1\teste1\obj\Debug\teste1.csproj.GenerateResource.Cache
+C:\Users\aluno\Documents\mih\teste1\teste1\obj\Debug\teste1.exe
+C:\Users\aluno\Documents\mih\teste1\teste1\obj\Debug\teste1.pdb
