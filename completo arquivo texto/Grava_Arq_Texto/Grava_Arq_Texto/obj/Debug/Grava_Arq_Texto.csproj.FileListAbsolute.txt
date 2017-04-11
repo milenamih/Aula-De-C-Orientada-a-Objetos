@@ -1,0 +1,9 @@
+C:\Users\aluno\Documents\mih\Grava_Arq_Texto\Grava_Arq_Texto\bin\Debug\Grava_Arq_Texto.exe.config
+C:\Users\aluno\Documents\mih\Grava_Arq_Texto\Grava_Arq_Texto\bin\Debug\Grava_Arq_Texto.exe
+C:\Users\aluno\Documents\mih\Grava_Arq_Texto\Grava_Arq_Texto\bin\Debug\Grava_Arq_Texto.pdb
+C:\Users\aluno\Documents\mih\Grava_Arq_Texto\Grava_Arq_Texto\obj\Debug\Grava_Arq_Texto.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Documents\mih\Grava_Arq_Texto\Grava_Arq_Texto\obj\Debug\Grava_Arq_Texto.Properties.Resources.resources
+C:\Users\aluno\Documents\mih\Grava_Arq_Texto\Grava_Arq_Texto\obj\Debug\Grava_Arq_Texto.csproj.GenerateResource.Cache
+C:\Users\aluno\Documents\mih\Grava_Arq_Texto\Grava_Arq_Texto\obj\Debug\Grava_Arq_Texto.exe
+C:\Users\aluno\Documents\mih\Grava_Arq_Texto\Grava_Arq_Texto\obj\Debug\Grava_Arq_Texto.pdb
+C:\Users\aluno\Documents\mih\Grava_Arq_Texto\Grava_Arq_Texto\obj\Debug\Grava_Arq_Texto.gavararqform.resources
