@@ -37,8 +37,8 @@
             this.pais = new System.Windows.Forms.ListBox();
             this.UnipLinkLabel = new System.Windows.Forms.LinkLabel();
             this.SexoGroupBox = new System.Windows.Forms.GroupBox();
-            this.FemradioButton = new System.Windows.Forms.RadioButton();
             this.MascradioButton = new System.Windows.Forms.RadioButton();
+            this.FemradioButton = new System.Windows.Forms.RadioButton();
             this.PresencialCheckBox = new System.Windows.Forms.CheckBox();
             this.SexoGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -129,6 +129,7 @@
             this.UnipLinkLabel.TabStop = true;
             this.UnipLinkLabel.Text = "www.Unip.br";
             this.UnipLinkLabel.VisitedLinkColor = System.Drawing.Color.Fuchsia;
+            this.UnipLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UnipLinkLabel_LinkClicked);
             // 
             // SexoGroupBox
             // 
@@ -141,17 +142,6 @@
             this.SexoGroupBox.TabStop = false;
             this.SexoGroupBox.Text = "Sexo";
             // 
-            // FemradioButton
-            // 
-            this.FemradioButton.AutoSize = true;
-            this.FemradioButton.Location = new System.Drawing.Point(10, 20);
-            this.FemradioButton.Name = "FemradioButton";
-            this.FemradioButton.Size = new System.Drawing.Size(67, 17);
-            this.FemradioButton.TabIndex = 0;
-            this.FemradioButton.TabStop = true;
-            this.FemradioButton.Text = "Feminino";
-            this.FemradioButton.UseVisualStyleBackColor = true;
-            // 
             // MascradioButton
             // 
             this.MascradioButton.AutoSize = true;
@@ -163,14 +153,25 @@
             this.MascradioButton.Text = "Masculino";
             this.MascradioButton.UseVisualStyleBackColor = true;
             // 
+            // FemradioButton
+            // 
+            this.FemradioButton.AutoSize = true;
+            this.FemradioButton.Location = new System.Drawing.Point(10, 20);
+            this.FemradioButton.Name = "FemradioButton";
+            this.FemradioButton.Size = new System.Drawing.Size(67, 17);
+            this.FemradioButton.TabIndex = 0;
+            this.FemradioButton.TabStop = true;
+            this.FemradioButton.Text = "Feminino";
+            this.FemradioButton.UseVisualStyleBackColor = true;
+            // 
             // PresencialCheckBox
             // 
             this.PresencialCheckBox.AutoSize = true;
             this.PresencialCheckBox.Location = new System.Drawing.Point(192, 215);
             this.PresencialCheckBox.Name = "PresencialCheckBox";
-            this.PresencialCheckBox.Size = new System.Drawing.Size(75, 17);
+            this.PresencialCheckBox.Size = new System.Drawing.Size(82, 17);
             this.PresencialCheckBox.TabIndex = 12;
-            this.PresencialCheckBox.Text = "Presencial";
+            this.PresencialCheckBox.Text = "Preferencial";
             this.PresencialCheckBox.UseVisualStyleBackColor = true;
             // 
             // gavararqform
@@ -189,9 +190,11 @@
             this.Controls.Add(this.EndLabel);
             this.Controls.Add(this.NameLabel);
             this.HelpButton = true;
+            this.KeyPreview = true;
             this.Name = "gavararqform";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GRAVAÇÃO DE ARQUIVO TEXTO";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.gavararqform_KeyPress);
             this.SexoGroupBox.ResumeLayout(false);
             this.SexoGroupBox.PerformLayout();
             this.ResumeLayout(false);

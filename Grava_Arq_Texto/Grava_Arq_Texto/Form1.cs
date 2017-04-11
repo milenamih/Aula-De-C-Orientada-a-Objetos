@@ -67,11 +67,41 @@ namespace Grava_Arq_Texto
                 SendKeys.Send("{F4}");
                 return;
             }
+            //um arquivo é um conjunto de registro e cada registro é uma coluna e cada coluna é um dado
+
            // System.IO.File.WriteAllLines(@"C:\Users\aluno\Documents\mih",);
 
-
+            string caminho = @"C:\Users\aluno\Documents\mih\clientes.csv";
+            string registro =
+                string.Format("{0};{1};{2};{3};{4};{5};{6}", NametextBox.Text.ToUpper(),
+            EndtextBox.Text.ToUpper(),
+            FemradioButton.Checked ? "feminino" : "masculino",
+            EstadoCivilComboBox.Text.ToUpper(),
+            PresencialCheckBox.Checked ? "sim" : "não",
+            pais.Text,
+            DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"));
+            StreamWriter gravar = new StreamWriter(caminho, true);
+            gravar.WriteLine(registro);
+            gravar.Close();
+            MessageBox.Show("cliente cadastrado com sucesso!!");
+                   
             LimparTela();
     
+        }
+
+        private void gavararqform_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //padrão ascii 27 é o esc do teclado
+            if(e.KeyChar==27){
+                LimparTela();
+            }
+
+        }
+
+        private void UnipLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.unip.br");
+            //www.unip.com.br
         }
        
     }
